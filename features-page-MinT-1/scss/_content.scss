@@ -33,6 +33,11 @@ body {
 .banner {
   background-color: #f7f8fa;
   text-align: center;
+  .home-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
 }
 
 .content-wrapper {
